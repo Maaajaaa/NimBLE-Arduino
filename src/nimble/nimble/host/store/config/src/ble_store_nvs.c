@@ -44,7 +44,7 @@
 
 typedef uint32_t nvs_handle_t;
 
-static const char *TAG = "NIMBLE_NVS";
+static const char *TAG2 = "NIMBLE_NVS";
 
 /*****************************************************************************
  * $ MISC                                                                    *

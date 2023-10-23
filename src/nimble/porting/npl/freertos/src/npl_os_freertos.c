@@ -55,7 +55,7 @@ static void *rtc0_isr_addr;
 #endif
 
 #if CONFIG_BT_NIMBLE_USE_ESP_TIMER
-static const char *TAG = "Timer";
+static const char *TAG2 = "Timer";
 #endif
 
 #define OS_MEM_ALLOC (1)
@@ -1347,7 +1347,7 @@ void npl_freertos_funcs_deinit(void)
 #include "esp_log.h"
 portMUX_TYPE ble_port_mutex = portMUX_INITIALIZER_UNLOCKED;
 #  if CONFIG_BT_NIMBLE_USE_ESP_TIMER
-static const char *TAG = "Timer";
+static const char *TAG2 = "Timer";
 #  endif
 
 #else
